@@ -6,3 +6,22 @@
  * 
  * Obs: Utilize a interface html para receber os dados do usuário
  */
+
+var element = document.getElementById("textoResultado");
+
+let horasTrabalhadas = parseInt(prompt("Digite as horas trabalhadas"))
+let salarioPorHora = parseInt(prompt("Digite o salário por hora"))
+
+if (horasTrabalhadas > 160) {
+    salarioExtraPorHora = 1.5*salarioPorHora
+    element.innerHTML = `O salário mensal do funcionário é R$ ${160*salarioPorHora + (horasTrabalhadas-160)*salarioExtraPorHora} `
+}else {
+    element.innerHTML = `O salário mensal do funcionário é R$ ${160*salarioPorHora}`
+}
+
+/*1 mês -- 4 semanas
+1 semana -- 40 horas
+*/ 
+
+ 
+ 

@@ -10,4 +10,7 @@ let altura = parseInt(prompt("Digite um valor para a altura (em m)"))
 
 let area = base*altura
 console.log(`A área do retângulo é ${area} m²`)
+
+var element = document.getElementById("textoResultado");
+element.innerHTML = `A área do retângulo é ${area} m²`
     

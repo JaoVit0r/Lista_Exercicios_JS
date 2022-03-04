@@ -4,3 +4,17 @@
  * 
  * Obs: Utilize a interface html para receber os dados do usuário
  */
+ var element = document.getElementById("textoResultado");
+
+let valores = []
+for (let index = 0;index < 20; index++) {
+     let valor = parseInt(prompt(`Digite o ${index+1}º valor`))
+     valores.push(valor)
+}
+// valores = [1, 2, 3]
+let valoresInvertidos = []
+for (let index2 = valores.length-1;index2 >=0; index2--) {
+    valoresInvertidos.push(valores[index2])
+}
+
+element.innerHTML = valoresInvertidos

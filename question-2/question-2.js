@@ -11,3 +11,6 @@ let percentualReajuste = parseInt(prompt("Digite o percentual de reajuste"))
 let salarioMensalReajustado = salarioMensalAtual - (salarioMensalAtual*(percentualReajuste/100))
 console.log(`Seu salário reajustado é R$ ${salarioMensalReajustado}`)
 
+var element = document.getElementById("textoResultado");
+element.innerHTML = `Seu salário reajustado é R$ ${salarioMensalReajustado}`
+

@@ -12,7 +12,8 @@ let custoConsumidor = custoFabrica + custoFabrica*porcentagemDistribuidor + cust
 
 console.log(`O preço do carro ao consumidor é de R$ ${custoConsumidor}`)
 
-
+var element = document.getElementById("textoResultado");
+element.innerHTML = `O preço do carro ao consumidor é de R$ ${custoConsumidor}`
 
 
 

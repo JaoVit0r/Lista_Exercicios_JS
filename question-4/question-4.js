@@ -6,3 +6,12 @@
  * 
  * Obs: Utilize a interface html para receber os dados do usuário
  */
+
+let nota1 = parseInt(prompt("Digite a nota 1"))
+let nota2 = parseInt(prompt("Digite a nota 2"))
+let nota3 = parseInt(prompt("Digite a nota 3"))
+
+let mediaFinal = ((nota1*2)+(nota2*3)+(nota3*5))/10
+
+ var element = document.getElementById("textoResultado");
+ element.innerHTML = `A média final do(a) aluno(a) é ${mediaFinal}`
