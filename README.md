@@ -1,5 +1,5 @@
 # Lista-exercicios-js
 
-### Lista de exercícios do módulo de Lógica de Programação Javascript, do curso "Vem Ser Tech" da Let's Code, em parceria com a Ifood
+Lista de exercícios referente ao módulo de Javascript, do programa Vem Ser Tech, constituída de 11 exercícios, cujas instruções estão contidas em cada um dos arquivos JS de cada pasta, relativa à questão.
 
-### Atividades feitas em Javascript
+
